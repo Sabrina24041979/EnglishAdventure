@@ -1,0 +1,97 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: #214B9F;
+  width: 100%;
+  padding-left: 35px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between; /* Modification pour espacer le logo et le nom */
+  align-items: center;
+}
+
+#logoEtNom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+header p {
+  margin-top: 2%; /* Ajuster la marge pour un espacement équilibré */
+  align-items: center;
+}
+
+h1 {
+  color: #F12241; /*https://www.code-couleur.com/drapeaux/royaume-uni.html*/
+}
+
+img {
+  width: 75px;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+p{
+  padding-top: 15px;
+}
+
+span{
+  color: #F12241;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px;
+  padding: 25px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #F12241;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #214B9F; /*https://www.code-couleur.com/drapeaux/royaume-uni.html*/
+}
+
+footer img{
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+  .container {
+    margin: 10px;
+  }
+}
+
+/* Ajouter d'autres média queries ici pour tablettes et desktops */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Ajouter des styles pour les tablettes ici */
+}
+
+@media screen and (min-width: 1025px) {
+  /* Ajouter des styles pour les écrans de bureau ici */
+}
